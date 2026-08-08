@@ -1,0 +1,38 @@
+.first img{
+    width: 320px;
+    padding: 50px;
+    margin-left: 250px;
+}
+.first {
+    background-color: rgba(210, 210, 210, 0.745);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 40px;
+}
+.text{
+    text-align: right;
+    margin-right: 210px;
+}
+p{
+    color: rgb(146, 146, 146);
+    font-size: 18px;
+}
+h1{
+    color: red;
+    font-size: 35px;
+}
+h2{
+    color: rgba(86, 86, 86, 0.859);
+    font-size: 30px;
+}
+.text a{
+    text-decoration: none;
+    background-color: white;
+    color: rgba(86, 86, 86, 0.859);
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+}
