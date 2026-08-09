@@ -1,7 +1,17 @@
 .first img{
     width: 320px;
     padding: 50px;
+    margin: 50px;
     margin-left: 250px;
+    animation: slideDown 1s ease-out;
+}
+@keyframes slideDown {
+    from{
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 .first {
     background-color: rgba(210, 210, 210, 0.745);
@@ -15,15 +25,15 @@
     text-align: right;
     margin-right: 210px;
 }
-p{
+.text>p{
     color: rgb(146, 146, 146);
     font-size: 18px;
 }
-h1{
+.text>h1{
     color: red;
     font-size: 35px;
 }
-h2{
+.text>h2{
     color: rgba(86, 86, 86, 0.859);
     font-size: 30px;
 }
@@ -35,4 +45,19 @@ h2{
     border-radius: 5px;
     display: inline-block;
     margin-top: 30px;
+}
+.secound h2{
+    color: red;
+    width: 75%;
+    text-align: right;
+}
+.secound p{
+    width: 50%;
+    font-size: 20px;
+    margin: auto;
+    text-align: right;
+    color: rgb(146, 146, 146);
+}
+.red-text{
+    color: red;
 }
